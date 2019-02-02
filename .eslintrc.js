@@ -1,8 +1,5 @@
 module.exports = {
-    extends: 'standard',
-    rules: {
-      semi: ['error', 'always']
-    },
-    globals: {
-    }
-  };
+  extends: 'standard',
+  parser: 'babel-eslint',
+  extends: ['plugin:prettier/recommended']
+};
